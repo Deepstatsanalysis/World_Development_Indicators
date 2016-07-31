@@ -617,7 +617,7 @@ sort_args_usa_bra=np.argsort(r_vals_usa_bra)[::-1]#highest correlation first
 
 
 # GER vs BRA
-pairs_by_indicator_ger_bra=np.array([norm_ray_us.T,norm_ray_bra.T]).T #indicator X year X 2
+pairs_by_indicator_ger_bra=np.array([norm_ray_ger.T,norm_ray_bra.T]).T #indicator X year X 2
 non_zero_inds_ger_bra=[]
 for ind in pairs_by_indicator_ger_bra:
     pairs = [pair for pair in ind if (pair[0]!=0 and pair[1]!=0)]
