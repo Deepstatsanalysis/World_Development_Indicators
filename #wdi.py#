@@ -483,8 +483,10 @@ pl.xlabel('Year')
 pl.ylabel('Correlation coefficient')
 #pl.axvline(x=1990,color='red')#1990, braman reunification
 #pl.text(1991,0.7,'Braman reunification',color='red')
+pl.axvline(x=1990,color='red')#1990, german reunification
+pl.text(1991,0.5,'German reunification/\nend of cold war',color='red')
 pl.axis((1960,2020,0.0,0.8))
-pl.savefig('Yearly_correlation_coefficients_noline_USA_BRA.png')
+pl.savefig('Yearly_correlation_coefficients_w_line_USA_BRA.png')
 
 
 ###all three plots in one figure
