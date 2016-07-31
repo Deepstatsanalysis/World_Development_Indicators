@@ -1,8 +1,10 @@
-# data_incubator
+# The World Bank World Development Indicators - Correlations across the globe
 
 I chose to compare the development indicators of the World Bank for the US and Germany, which are the country I currently live in and my home country, respectively. I was interested to see both how correlated different indicators are (over time) and if there were years with more or less correlation between the indicators in the two countries.
 
 The data is available at http://data.worldbank.org/country
+
+The [World Bank](https://en.wikipedia.org/wiki/World_Bank) is an international financial institution with many functions, such as providing loans to developing countries.
 
 The first plot shows a selection of years with 5 year intervals from 1970 to 2010. Each dot in each subplot represents on indicator's value normalized by subtracting the mean value of that indicator over all years and dividing by the range of the values for the indicator (for each country respectively). The US values are on the x axes and the German values are on the y axes. 
 
