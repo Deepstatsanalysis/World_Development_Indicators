@@ -15,6 +15,12 @@ The World Development Indicators (WDIs) are a set of over 1000 metrics published
 * CO_2 emissions (kt)
 * etc.
 
+The data can be downloaded directly from the [website](http://data.worldbank.org/country) as an excel or csv file for each country. This project works exclusively with the csv format (comma separated values). csv files for three countries (USA, Germany, Brazil) can be found in this repository. 
+
+An example screenshot of the tabular data when viewed in your favorite spreadsheet viewer can be seen here:
+
+![The data](images/data_screenshot.png)
+
 The first plot shows a selection of years with 5 year intervals from 1970 to 2010. Each dot in each subplot represents on indicator's value normalized by subtracting the mean value of that indicator over all years and dividing by the range of the values for the indicator (for each country respectively). The US values are on the x axes and the German values are on the y axes. 
 
 The second plot looks in more detail at the correlations between the two countries for different indicators. For that I calculated the correlations of the indicators between the two countries over time by linear regression. The plot shows the top 4 positively correlated indicators (Infant mortality rate, Under-5 mortality rate, CO2 emissions and Imports of goods and services, in that order) and the top 4 negatively correlated indicators (External balance on goods and services, Capture fisheries production, Total fisheries production and Net trade in goods, in that order.) For all plots the US is shown in blue and Germany in gold.
