@@ -78,7 +78,8 @@ It's a bit hard to compare them all like this so let's put all of them into the 
 ![Correlation plots with reunification line all countries](images/Correlation_coeffs_over_time_grid.png)
 
 A few interesting things can be seen in this last figure. The correlation between the US was fairly high in the 60s with both Brazil and Germany but declined until the 90s. Since then it steadily increased, together with growing globalization, to a new high in recent years. Brazil and Germany show fairly low correlation before the year 2000 and only in recent years have started to correlate to a similar degree as each country with the USA, probably also due to a more globalized economy.
-----
+
+---
 
 To be continued...
 
