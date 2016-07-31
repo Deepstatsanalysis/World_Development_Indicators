@@ -29,7 +29,23 @@ Data cleanup steps include:
 * --> Solution: keep missing data points around as 0.0 and remove only when necessary
 * When appropriate, data was scaled by subtracting average for that metric (over all years) and dividing by range (max-min) for that metric
 
+All analysis was done with the following tools:
+* Python
+* Emacs
+* Numpy (python library)
+* Matplotlib (python library)
+* Scipy (python library)
+* csv (python library)
 
+After scaling the different indicators for each country appropriately, we can now look at correlation plots for two countries in different years.
+
+Here is what correlation plots look like for Germany and the United States, plotted for every five years.
+
+![Germany-USA correlation plots](images/Indicator_correlations_US_vs_Ger.png)
+
+As we can see correlations between the WDIs vary strongly for different years. To visualize the correlation for each year we can use linear regression (using scipy.stats):
+
+![Germany-USA correlation plots](images/Indicator_correlations_US_vs_Ger_w_linregr.png)
 
 The first plot shows a selection of years with 5 year intervals from 1970 to 2010. Each dot in each subplot represents on indicator's value normalized by subtracting the mean value of that indicator over all years and dividing by the range of the values for the indicator (for each country respectively). The US values are on the x axes and the German values are on the y axes. 
 
