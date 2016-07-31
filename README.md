@@ -77,4 +77,6 @@ It's a bit hard to compare them all like this so let's put all of them into the 
 
 ![Correlation plots with reunification line all countries](images/Correlation_coeffs_over_time_grid.png)
 
+A few interesting things can be seen in this last figure. The correlation between the US was fairly high in the 60s with both Brazil and Germany but declined until the 90s. Since then it steadily increased, together with growing globalization, to a new high in recent years. Brazil and Germany show fairly low correlation before the year 2000 and only in recent years have started to correlate to a similar degree as each country with the USA, probably also due to a more globalized economy.
+
 The second plot looks in more detail at the correlations between the two countries for different indicators. For that I calculated the correlations of the indicators between the two countries over time by linear regression. The plot shows the top 4 positively correlated indicators (Infant mortality rate, Under-5 mortality rate, CO2 emissions and Imports of goods and services, in that order) and the top 4 negatively correlated indicators (External balance on goods and services, Capture fisheries production, Total fisheries production and Net trade in goods, in that order.) For all plots the US is shown in blue and Germany in gold.
