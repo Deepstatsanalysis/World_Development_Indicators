@@ -4,7 +4,16 @@ I chose to compare the development indicators of the World Bank for the US and G
 
 The data is available at http://data.worldbank.org/country
 
-The [World Bank](https://en.wikipedia.org/wiki/World_Bank) is an international financial institution with many functions, such as providing loans to developing countries.
+The [World Bank](https://en.wikipedia.org/wiki/World_Bank) is an international financial institution with many functions, such as providing loans to developing countries, with the official goal to reduce poverty in the world.
+
+The World Development Indicators (WDIs) are a set of over 1000 metrics published by the World Bank for every country or region, going back to 1960. The WDIs are used to assess the development of a country or region. Examples of WDIs are:
+
+* Arable land (hectares)
+* Net trades (US dollars)
+* Infant mortality rate
+* Electricity from renewables (kWh)
+* CO_2 emissions (kt)
+* etc.
 
 The first plot shows a selection of years with 5 year intervals from 1970 to 2010. Each dot in each subplot represents on indicator's value normalized by subtracting the mean value of that indicator over all years and dividing by the range of the values for the indicator (for each country respectively). The US values are on the x axes and the German values are on the y axes. 
 
