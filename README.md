@@ -43,6 +43,8 @@ Here is what correlation plots look like for Germany and the United States, plot
 
 ![Germany-USA correlation plots](images/Indicator_correlations_US_vs_Ger.png)
 
+ Each dot in each subplot represents on indicator's value normalized by subtracting the mean value of that indicator over all years and dividing by the range of the values for the indicator (for each country respectively). The US values are on the x axes and the German values are on the y axes.
+
 As we can see correlations between the WDIs vary strongly for different years. To visualize the correlation for each year we can use linear regression (using scipy.stats):
 
 ![Germany-USA correlation plots](images/Indicator_correlations_US_vs_Ger_w_linregr.png)
@@ -65,6 +67,14 @@ What's interesting is that the correlation between the countries seems to decrea
 
 ![Germany-USA correlation plots with reunification line](images/Yearly_correlation_coefficients.png)
 
-The first plot shows a selection of years with 5 year intervals from 1970 to 2010. Each dot in each subplot represents on indicator's value normalized by subtracting the mean value of that indicator over all years and dividing by the range of the values for the indicator (for each country respectively). The US values are on the x axes and the German values are on the y axes. 
+Similarly, we can plot the correlation coefficients over time for the USA against Brazil and Germany against Brazil:
+
+![Brazil-USA correlation plots with reunification line](images/Yearly_correlation_coefficients_w_line_USA_BRA.png)
+
+![Germany-Brazil correlation plots with reunification line](images/Yearly_correlation_coefficients_redline_BRA_GER.png)
+
+It's a bit hard to compare them all like this so let's put all of them into the same figure:
+
+![Correlation plots with reunification line all countries](images/Correlation_coeffs_over_time_grid.png)
 
 The second plot looks in more detail at the correlations between the two countries for different indicators. For that I calculated the correlations of the indicators between the two countries over time by linear regression. The plot shows the top 4 positively correlated indicators (Infant mortality rate, Under-5 mortality rate, CO2 emissions and Imports of goods and services, in that order) and the top 4 negatively correlated indicators (External balance on goods and services, Capture fisheries production, Total fisheries production and Net trade in goods, in that order.) For all plots the US is shown in blue and Germany in gold.
