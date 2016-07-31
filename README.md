@@ -49,12 +49,21 @@ As we can see correlations between the WDIs vary strongly for different years. T
 
 For the USA vs. Brazil this would look like this:
 
-![Germany-USA correlation plots](images/Indicator_correlations_Bra_vs_USA_w_linregr.png)
+![Brazil-USA correlation plots](images/Indicator_correlations_Bra_vs_USA_w_linregr.png)
 
 And for Germany vs. Brazil it would look like this:
 
-![Germany-USA correlation plots](images/Indicator_correlations_Bra_vs_Ger_w_linregr.png)
+![Germany-Brazil correlation plots](images/Indicator_correlations_Bra_vs_Ger_w_linregr.png)
 
+Now let's see how the correlation coefficients (the slope of the lines in these graphs) develop over time.
+
+This is what it looks like for Germany and the US:
+
+![Germany-USA correlation plots](images/Yearly_correlation_coefficients_noline.png)
+
+What's interesting is that the correlation between the countries seems to decrease until the mid nineties with a strange spike in 1990 and then creeps up again in more recent years. If we look at the historical context, it seems plausible that the end of the cold war and German Reunification play a role here. Let's try to add this to the plot:
+
+![Germany-USA correlation plots with reunification line](images/Yearly_correlation_coefficients.png)
 
 The first plot shows a selection of years with 5 year intervals from 1970 to 2010. Each dot in each subplot represents on indicator's value normalized by subtracting the mean value of that indicator over all years and dividing by the range of the values for the indicator (for each country respectively). The US values are on the x axes and the German values are on the y axes. 
 
