@@ -81,6 +81,37 @@ A few interesting things can be seen in this last figure. The correlation betwee
 
 ---
 
+Lastly, I wanted to look at not correlations across indicators over time but correlations over time of each indicator. To this end, I calculated correlation coefficients over time for each pair of identical indicators for two countries. For example the correlation coefficient for infant mortality rate from 1960 to 2015 for the USA and Germany. I did this for all 1000+ indicator pairs.
+
+Here is a histogram of all pairs for the United States and Germany:
+
+![Histogram of pairwise correlations](images/Histogram_pairwise_correlation_coefficients.png)
+
+As you can see, the majority of indicators have fairly good positive correlations (between 0.5 and 1.0) but there are a good number of non correlated or anti correlated metrics. One of the highest correlations between the two countries is the indicator "infant mortality rate per 1000 births", with a correlation coefficient of 0.997:
+
+![Mortality rate correlation plot](images/Mortality_rate_correlation_plot.png)
+
+
+Other highly correlated WDIs are:
+
+* Infant mortality rate
+* Mortality rate of under 5 year olds
+* CO<sub>2</sub> emissions
+* Imports of Goods and Services
+* and many more
+
+Examples of anticorrelated metrics include:
+
+* Net trade in goods and services
+* Total fisheries production
+* Capture fisheries production
+* External balance on goods and services 
+* a few more
+ 
+Let's look at some unnormalized plots for the top correlated and anticorrelated metrics, in their respective units:
+
+![Top correlated and anticorrelated metrics](images/Indicator_top_correlations_US_vs_Ger.png)
+
 To be continued...
 
 
