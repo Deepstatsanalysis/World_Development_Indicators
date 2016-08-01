@@ -131,7 +131,7 @@ Similarly, the plots for Germany and Brazil show little change around 1990, with
 
 ---
 
+What what good is all this and what else could we do?
 
-To be continued...
-
+One thing to look at could be how correlated completely different indicators are to each other (not the same indicator for two countries). So for example is the total fisheries production correlated to the infant mortality rate between Brazil and Germany. While it is likely that many spurious correlations exist, there is a decent chance for some of these correlations to be causative of nature. In particular, one could look at the predictive power of certain WDIs on other WDIs by comparing them across time periods. For example, when analyzing the data for many more countries one could try and see if the amount of arable land tends to be followed by an increase in CO<sub>2</sub> emissions. Conversely, one could imagine that a decrease in electricity from coal in one decade tends to decrease CO<sub>2</sub> emissions in the next decade while also increasing GDP per capita. If meaningful trends like this can be discovered they can be used to make governments and intergovernmental institutions make informed policy decisions.
 
