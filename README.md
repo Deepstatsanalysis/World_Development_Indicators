@@ -4,6 +4,8 @@ I chose to compare the development indicators of the World Bank for the US and G
 
 The data is available at http://data.worldbank.org/country
 
+---
+
 The [World Bank](https://en.wikipedia.org/wiki/World_Bank) is an international financial institution with many functions, such as providing loans to developing countries, with the official goal to reduce poverty in the world.
 
 The World Development Indicators (WDIs) are a set of over 1000 metrics published by the World Bank for every country or region, going back to 1960. The WDIs are used to assess the development of a country or region. Examples of WDIs are:
@@ -14,6 +16,10 @@ The World Development Indicators (WDIs) are a set of over 1000 metrics published
 * Electricity from renewables (kWh)
 * CO<sub>2</sub> emissions (kt)
 * etc.
+
+---
+
+### The data
 
 The data can be downloaded directly from the [website](http://data.worldbank.org/country) as an excel or csv file for each country. This project works exclusively with the csv format (comma separated values). csv files for three countries (USA, Germany, Brazil) can be found in this repository. 
 
@@ -38,6 +44,8 @@ All analysis was done with the following tools:
 * csv (python library)
 
 After scaling the different indicators for each country appropriately, we can now look at correlation plots for two countries in different years.
+
+### The results
 
 Here is what correlation plots look like for Germany and the United States, plotted for every five years.
 
