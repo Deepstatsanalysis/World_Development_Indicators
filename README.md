@@ -12,7 +12,7 @@ The World Development Indicators (WDIs) are a set of over 1000 metrics published
 * Net trades (US dollars)
 * Infant mortality rate
 * Electricity from renewables (kWh)
-* CO_2 emissions (kt)
+* CO<sub>2</sub> emissions (kt)
 * etc.
 
 The data can be downloaded directly from the [website](http://data.worldbank.org/country) as an excel or csv file for each country. This project works exclusively with the csv format (comma separated values). csv files for three countries (USA, Germany, Brazil) can be found in this repository. 
