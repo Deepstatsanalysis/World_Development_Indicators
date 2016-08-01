@@ -94,23 +94,43 @@ As you can see, the majority of indicators have fairly good positive correlation
 
 Other highly correlated WDIs are:
 
-* Infant mortality rate
-* Mortality rate of under 5 year olds
-* CO<sub>2</sub> emissions
-* Imports of Goods and Services
+* Infant mortality rate (per 1000 live births)
+* Mortality rate of under 5 year olds (per 1000 live births)
+* CO<sub>2</sub> emissions (kg per US$ of GDP)
+* Imports of Goods and Services (US$)
 * and many more
 
 Examples of anticorrelated metrics include:
 
-* Net trade in goods and services
-* Total fisheries production
-* Capture fisheries production
-* External balance on goods and services 
+* Net trade in goods and services (US$)
+* Total fisheries production (metric tons)
+* Capture fisheries production (metric tons)
+* External balance on goods and services (US$)
 * a few more
  
 Let's look at some unnormalized plots for the top correlated and anticorrelated metrics, in their respective units:
 
-![Top correlated and anticorrelated metrics](images/Indicator_top_correlations_US_vs_Ger.png)
+![Top correlated and anticorrelated metrics USA Germany](images/Indicator_top_correlations_US_vs_Ger.png)
+
+For the anticorrelated metrics in particular, the end of the cold war seems to be a meaningful event:
+
+![Top correlated and anticorrelated metrics USA Germany with cold war line](images/Indicator_top_correlations_US_vs_Ger_w_reunification_line.png)
+
+For other country pairs the top correlated and anticorrelated pairs are different of course.
+
+This is what the top and bottom four WDIs look like for the US and Brazil:
+
+![Top correlated and anticorrelated metrics USA Brazil](images/Indicator_top_correlations_US_vs_Bra_w_reunification_line.png)
+
+A more obvious takeaway from this last figure is that the end of the cold war had barely any influence on the correlations between Brazil and the US, which makes sense because the US's relationship with Brazil was much less affected by this than its relationship with Germany.
+
+Similarly, the plots for Germany and Brazil show little change around 1990, with correlations being less pronounced in general between these two countries:
+
+![Top correlated and anticorrelated metrics Germany Brazil](images/Indicator_top_correlations_Ger_vs_Bra_w_reunification_line.png)
+
+
+
+
 
 To be continued...
 
