@@ -129,10 +129,9 @@ Similarly, the plots for Germany and Brazil show little change around 1990, with
 ![Top correlated and anticorrelated metrics Germany Brazil](images/Indicator_top_correlations_Ger_vs_Bra_w_reunification_line.png)
 
 
-
+---
 
 
 To be continued...
 
 
-The second plot looks in more detail at the correlations between the two countries for different indicators. For that I calculated the correlations of the indicators between the two countries over time by linear regression. The plot shows the top 4 positively correlated indicators (Infant mortality rate, Under-5 mortality rate, CO2 emissions and Imports of goods and services, in that order) and the top 4 negatively correlated indicators (External balance on goods and services, Capture fisheries production, Total fisheries production and Net trade in goods, in that order.) For all plots the US is shown in blue and Germany in gold.
